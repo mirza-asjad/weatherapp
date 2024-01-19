@@ -1,0 +1,41 @@
+name: weatherapp
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie:
+  weather_icons:
+  provider:
+  http:
+  google_nav_bar:
+  geocoding:
+  google_fonts:
+  shimmer:
+  flutter_slidable:
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.0
+  flutter_native_splash: ^2.3.2
+
+flutter_native_splash:
+  android: true
+  image: "images/cloudy.png"
+  color: "#FFFFFF"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - animations/
